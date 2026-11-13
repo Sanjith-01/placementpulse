@@ -14,7 +14,7 @@ export default function AboutPage() {
           Closing the campus recruitment information gap
         </h1>
         <p className="text-base text-slate-600 mt-3 leading-relaxed">
-          Built by Information Technology undergraduates at Kumaraguru College of Technology (Coimbatore), PlacementPulse transforms scattered senior interview anecdotes into a structured, searchable institutional knowledge base.
+          Built by Information Technology undergraduates in our B.Tech Information Technology program (Coimbatore), PlacementPulse transforms scattered senior interview anecdotes into a structured, searchable institutional knowledge base.
         </p>
       </div>
 
@@ -46,13 +46,13 @@ export default function AboutPage() {
         <h2 className="text-xl font-bold text-slate-900">The Project Story</h2>
         <div className="mt-4 space-y-4 text-sm text-slate-600 leading-relaxed max-w-4xl">
           <p>
-            During our second and third years in the B.Tech Information Technology program at KCT, we observed a recurring pattern: first-year and second-year students were eager to prepare for placements, yet had no visibility into which companies recruited on campus, what CGPA thresholds were enforced, or which Data Structures and Algorithms topics actually appeared in technical rounds.
+            During our second and third years in the B.Tech Information Technology program in our B.Tech Information Technology program, we observed a recurring pattern: first-year and second-year students were eager to prepare for placements, yet had no visibility into which companies recruited on campus, what CGPA thresholds were enforced, or which Data Structures and Algorithms topics actually appeared in technical rounds.
           </p>
           <p>
             While existing platforms like GeeksforGeeks and LeetCode Discuss host thousands of global interview posts, they lack campus-specific context. Meanwhile, official placement portals handle logistics and resume uploads rather than peer-to-peer technical knowledge transfer.
           </p>
           <p>
-            We engineered <strong>KCT PlacementPulse</strong> using MongoDB, Express.js, React, and Node.js with strict Role-Based Access Control (RBAC) so juniors, placed seniors, and Placement Cell faculty each operate within a dedicated, trustworthy workflow.
+            We engineered <strong> PlacementPulse</strong> using MongoDB, Express.js, React, and Node.js with strict Role-Based Access Control (RBAC) so juniors, placed seniors, and Placement Cell faculty each operate within a dedicated, trustworthy workflow.
           </p>
         </div>
       </div>
@@ -79,23 +79,23 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
           {[
             {
-              name: 'Sanjith M',
-              roll: '24BIT105 • Batch 2024–2028',
-              role: 'Full-Stack Architecture & RBAC Security',
-              stack: 'Node.js, Express, React, MongoDB, Java'
-            },
-            {
-              name: 'Naveen Kumar MM',
-              roll: '3rd Year IT • KCT',
-              role: 'Data Modeling & Curriculum Alignment',
-              stack: 'DBMS, DSA Topic Taxonomy, QA Testing'
-            },
-            {
-              name: 'KCT Placement Cell Advisors',
-              roll: 'Faculty Moderation Group',
-              role: 'Drive Verification & Policy Governance',
-              stack: 'Eligibility Auditing & Campus Analytics'
-            }
+    name: 'Sanjith M',
+    roll: 'B.Tech Information Technology • 2024–2028',
+    role: 'Full-Stack Architecture & RBAC Security',
+    stack: 'Node.js, Express, React, MongoDB, Java'
+  },
+  {
+    name: 'Student Contributor Network',
+    roll: 'Senior & Alumni Cohort',
+    role: 'Interview Round Documentation & Mentorship',
+    stack: 'DSA Patterns, System Design, Domain Prep'
+  },
+  {
+    name: 'Placement Governance Module',
+    roll: 'Staff Verification Layer',
+    role: 'Drive Scheduling & Submission Auditing',
+    stack: 'Eligibility Filtering & Campus Analytics'
+  }
           ].map((member) => (
             <div key={member.name} className="p-6 rounded-xl bg-white border border-slate-200">
               <div className="flex items-center justify-between">

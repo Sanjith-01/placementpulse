@@ -22,11 +22,11 @@ async function seedDatabase() {
 
     const hashedPassword = await bcrypt.hash('password123', 10);
 
-    const users = await User.insertMany([
+   const users = await User.insertMany([
       {
         name: 'Sanjith M',
-        rollNumber: '24BIT105',
-        email: 'sanjith.24bit@kct.ac.in',
+        rollNumber: '24IT105',
+        email: 'sanjith.demo@campus-portal.edu',
         password: hashedPassword,
         role: 'junior',
         department: 'Information Technology',
@@ -34,9 +34,9 @@ async function seedDatabase() {
         cgpa: 8.135
       },
       {
-        name: 'Aravind S',
-        rollNumber: '23BIT042',
-        email: 'aravind.23bit@kct.ac.in',
+        name: 'Arjun K',
+        rollNumber: '23IT014',
+        email: 'senior.demo@campus-portal.edu',
         password: hashedPassword,
         role: 'senior',
         department: 'Information Technology',
@@ -44,9 +44,9 @@ async function seedDatabase() {
         cgpa: 8.72
       },
       {
-        name: 'Dr. R. Subramanian',
-        rollNumber: 'KCT-STAFF-01',
-        email: 'placement@kct.ac.in',
+        name: 'Placement Coordinator',
+        rollNumber: 'STAFF-01',
+        email: 'staff.demo@campus-portal.edu',
         password: hashedPassword,
         role: 'staff',
         department: 'Placement Cell',

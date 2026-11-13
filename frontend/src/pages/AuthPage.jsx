@@ -4,8 +4,8 @@ import { Link, useNavigate } from 'react-router-dom';
 const DEFAULT_ACCOUNTS = [
   {
     name: 'Sanjith M',
-    rollNo: '24BIT105',
-    email: 'sanjith.24bit@kct.ac.in',
+    rollNo: '24IT105',
+    email: 'sanjith.demo@campus-portal.edu',
     password: 'password123',
     department: 'Information Technology',
     batch: '2024–2028',
@@ -13,9 +13,9 @@ const DEFAULT_ACCOUNTS = [
     role: 'junior'
   },
   {
-    name: 'Aravind S',
-    rollNo: '23BIT042',
-    email: 'aravind.23bit@kct.ac.in',
+    name: 'Arjun K (Demo Senior)',
+    rollNo: '23IT014',
+    email: 'senior.demo@campus-portal.edu',
     password: 'password123',
     department: 'Information Technology',
     batch: '2023–2027',
@@ -23,9 +23,9 @@ const DEFAULT_ACCOUNTS = [
     role: 'senior'
   },
   {
-    name: 'Dr. R. Subramanian',
-    rollNo: 'KCT-STAFF-01',
-    email: 'placement@kct.ac.in',
+    name: 'Placement Coordinator (Demo)',
+    rollNo: 'STAFF-01',
+    email: 'staff.demo@campus-portal.edu',
     password: 'password123',
     department: 'Placement Cell',
     batch: 'Faculty',

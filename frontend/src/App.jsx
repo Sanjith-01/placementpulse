@@ -23,8 +23,8 @@ export default function App() {
     }
     return {
       name: 'Sanjith M',
-      rollNo: '24BIT105',
-      email: 'sanjith.24bit@kct.ac.in',
+      rollNo: '24IT105',
+      email: 'sanjith.demo@campus-portal.edu',
       department: 'Information Technology',
       batch: '2024–2028',
       cgpa: 8.135,

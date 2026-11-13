@@ -64,7 +64,7 @@ export default function Layout({ children, user, setUser, toast, clearToast }) {
                 PlacementPulse
               </span>
               <span className="hidden sm:inline-block text-[11px] font-mono px-1.5 py-0.5 rounded bg-slate-100 text-slate-600 border border-slate-200">
-                KCT-IT
+                CAMPUS
               </span>
             </div>
           </Link>
@@ -226,7 +226,7 @@ export default function Layout({ children, user, setUser, toast, clearToast }) {
                 <div className="w-7 h-7 rounded-md bg-slate-900 text-white flex items-center justify-center font-mono text-xs font-bold">
                   KP
                 </div>
-                <span className="font-semibold text-slate-900">KCT PlacementPulse</span>
+                <span className="font-semibold text-slate-900">PlacementPulse</span>
               </div>
               <p className="text-sm text-slate-600 max-w-md leading-relaxed">
                 Structured campus placement intelligence for Kumaraguru College of Technology. Eliminating institutional memory loss between graduating seniors and 1st/2nd-year cohorts.
@@ -263,7 +263,7 @@ export default function Layout({ children, user, setUser, toast, clearToast }) {
           </div>
 
           <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-            <p>© 2026 KCT PlacementPulse — Department of Information Technology, Coimbatore.</p>
+            <p>© 2026 PlacementPulse — Student Full-Stack Portfolio Prototype (Sample Demo Data Only).</p>
             <div className="flex items-center gap-6">
               <Link to="/about" className="hover:text-slate-900">Data Governance</Link>
               <Link to="/contact" className="hover:text-slate-900">Report Inaccuracy</Link>

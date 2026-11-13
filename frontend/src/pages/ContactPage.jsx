@@ -119,7 +119,7 @@ export default function ContactPage({ showToast }) {
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-blue-600 shrink-0" />
-                <span className="font-mono text-xs">placementpulse@kct.ac.in</span>
+                <span className="font-mono text-xs">support.demo@campus-portal.edu</span>
               </div>
               <div className="flex items-center gap-3">
                 <Clock className="w-4 h-4 text-blue-600 shrink-0" />
@@ -135,7 +135,7 @@ export default function ContactPage({ showToast }) {
               <span>11.0778° N, 76.9897° E</span>
             </div>
             <div className="p-6 bg-slate-50 space-y-2">
-              <p className="text-sm font-semibold text-slate-900">KCT IT Park & Placement Block</p>
+              <p className="text-sm font-semibold text-slate-900">Career Guidance & Placement Cell, Academic Block, Engineering Campus, Coimbatore, Tamil Nadu.</p>
               <p className="text-xs text-slate-600 leading-relaxed">
                 Chinnavedampatti / Saravanampatti Campus, Coimbatore, Tamil Nadu.
               </p>

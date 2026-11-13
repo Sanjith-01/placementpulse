@@ -33,7 +33,7 @@ export default function HomePage() {
               </h1>
 
               <p className="text-base sm:text-lg text-slate-600 max-w-2xl leading-relaxed">
-                1st and 2nd-year students shouldn’t have to guess what visiting companies ask. Access Placement Cell-verified interview rounds, DSA topic frequencies, and CGPA cutoffs tailored to KCT.
+                1st and 2nd-year students shouldn’t have to guess what visiting companies ask. Access Placement Cell-verified interview rounds, DSA topic frequencies, and CGPA cutoffs tailored to your campus.
               </p>
 
               <div className="flex flex-wrap items-center gap-3 pt-2">
@@ -224,7 +224,7 @@ export default function HomePage() {
               </p>
               <footer className="mt-4 flex items-center justify-between text-xs">
                 <span className="font-semibold text-slate-900">Naveen Kumar MM</span>
-                <span className="font-mono text-slate-500">3rd Year IT • KCT</span>
+                <span className="font-mono text-slate-500">3rd Year IT • Campus Peer</span>
               </footer>
             </blockquote>
 

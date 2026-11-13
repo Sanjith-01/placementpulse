@@ -1,6 +1,6 @@
 export const PLATFORM_STATS = [
   { label: 'Verified Interview Logs', value: '420+', delta: '+38 this semester' },
-  { label: 'Recruiting Partners Tracked', value: '64', delta: '2024–2028 cycle' },
+  { label: 'Recruiting Partners Tracked', value: '64', delta: '2026–2027 cycle' },
   { label: '1st & 2nd Year Active Readers', value: '1,850', delta: '92% weekly retention' },
   { label: 'Staff-Verified Accuracy', value: '99.4%', delta: 'Placement Cell audited' },
 ];
@@ -10,8 +10,8 @@ export const EXPERIENCES_DATA = [
     id: 'EXP-1042',
     company: 'Rolls-Royce Data Labs',
     role: 'Full-Stack & Data Engineering Intern',
-    author: 'Aravind S',
-    rollNo: '23BIT042',
+    author: 'Arjun K',
+    rollNo: '23IT014',
     batch: '2023–2027',
     department: 'IT',
     verdict: 'Selected',
@@ -32,8 +32,8 @@ export const EXPERIENCES_DATA = [
     id: 'EXP-1041',
     company: 'Zoho Corporation',
     role: 'Member Technical Staff (MTS)',
-    author: 'Priya Dharshini K',
-    rollNo: '23BIT089',
+    author: 'Meera S',
+    rollNo: '23IT029',
     batch: '2023–2027',
     department: 'IT',
     verdict: 'Selected',
@@ -54,8 +54,8 @@ export const EXPERIENCES_DATA = [
     id: 'EXP-1039',
     company: 'Bosch Global Software',
     role: 'Embedded & Cloud Software Engineer',
-    author: 'Karthikeyan R',
-    rollNo: '23BEC019',
+    author: 'Rohan V',
+    rollNo: '23EC019',
     batch: '2023–2027',
     department: 'ECE',
     verdict: 'Selected',
@@ -75,8 +75,8 @@ export const EXPERIENCES_DATA = [
     id: 'EXP-1036',
     company: 'TCS Digital',
     role: 'Systems Engineer (Digital Cadre)',
-    author: 'Meenakshi V',
-    rollNo: '23BCS114',
+    author: 'Ananya R',
+    rollNo: '23CS044',
     batch: '2023–2027',
     department: 'CSE',
     verdict: 'Selected',
@@ -96,8 +96,8 @@ export const EXPERIENCES_DATA = [
     id: 'EXP-1032',
     company: 'Cognizant GenC Next',
     role: 'Full-Stack Developer Trainee',
-    author: 'Deepak M',
-    rollNo: '23BIT064',
+    author: 'Vikram D',
+    rollNo: '23IT052',
     batch: '2023–2027',
     department: 'IT',
     verdict: 'Waitlisted',
@@ -117,8 +117,8 @@ export const EXPERIENCES_DATA = [
     id: 'EXP-1028',
     company: 'Thoughtworks',
     role: 'Application Developer',
-    author: 'Sruthi N',
-    rollNo: '23BCS051',
+    author: 'Divya N',
+    rollNo: '23CS031',
     batch: '2023–2027',
     department: 'CSE',
     verdict: 'Selected',
@@ -138,16 +138,16 @@ export const EXPERIENCES_DATA = [
 
 export const FAQ_ITEMS = [
   {
-    q: 'How is KCT PlacementPulse different from GeeksforGeeks or Glassdoor?',
-    a: 'Global sites lack campus-specific hiring context. PlacementPulse tracks exact KCT campus drives, department eligibility cutoffs, round structures, and Placement Cell-verified experiences from your immediate seniors.'
+    q: 'How is PlacementPulse different from GeeksforGeeks or Glassdoor?',
+    a: 'Global sites lack campus-specific hiring context. PlacementPulse tracks exact campus drives, department eligibility cutoffs, round structures, and Placement Cell-verified experiences from immediate seniors.'
   },
   {
     q: 'Who can publish interview experiences and drive schedules?',
-    a: '1st and 2nd year students have read-and-bookmark access. Verified 3rd/4th year seniors and alumni can submit structured round breakdowns, while Placement Cell staff publish official drive calendars and audit submissions.'
+    a: '1st and 2nd year students have read-and-ask access. Verified 3rd/4th year seniors and alumni can submit structured round breakdowns and answer doubts, while Placement Cell staff publish official drive calendars and audit submissions.'
   },
   {
     q: 'How are senior submissions verified for accuracy?',
-    a: 'Every submission is tied to a verified institutional roll number (e.g., 23BIT042) and reviewed by Placement Cell coordinators before receiving the Verified badge.'
+    a: 'Every submission is tied to a verified student roll number and reviewed by Placement Cell coordinators before receiving the Verified badge.'
   },
   {
     q: 'Can 1st-year students check eligibility for upcoming companies?',
@@ -156,10 +156,10 @@ export const FAQ_ITEMS = [
 ];
 
 export const TIMELINE_MILESTONES = [
-  { date: 'Aug 2026', title: 'Problem Discovery at KCT', desc: 'Surveyed 240+ first- and second-year IT & CSE students; identified a 78% gap in awareness of campus recruitment patterns.' },
+  { date: 'Aug 2026', title: 'Campus Information Gap Discovery', desc: 'Identified a 78% awareness gap among 1st- and 2nd-year engineering students regarding visiting recruiters and round expectations.' },
   { date: 'Sep 2026', title: 'RBAC Schema & Core Architecture', desc: 'Designed a 3-tier Role-Based Access Control model separating Junior readers, Senior contributors, and Placement Staff moderators.' },
-  { date: 'Oct 2026', title: 'Pilot Launch with IT Department', desc: 'Onboarded final-year placed seniors to document round-by-round experiences for Zoho, Rolls-Royce, and Bosch.' },
-  { date: 'Nov 2026', title: 'Campus-Wide Analytics & Search', desc: 'Released topic-level DSA frequency tracking, CGPA eligibility filtering, and verified staff drive announcements.' }
+  { date: 'Oct 2026', title: 'Department Pilot & Q&A Forum', desc: 'Built round-by-round experience logs and a peer mentorship Q&A thread for Rolls-Royce, Zoho, and Bosch drives.' },
+  { date: 'Nov 2026', title: 'Topic Analytics & Eligibility Engine', desc: 'Released DSA topic frequency tracking, CGPA eligibility filtering, and verified drive announcements.' }
 ];
 
 export const INITIAL_QUESTIONS = [
@@ -169,7 +169,7 @@ export const INITIAL_QUESTIONS = [
     body: 'I am currently in my 2nd year practicing Java DSA (arrays, linked lists, and binary trees). Do interviewers expect dynamic programming and graphs for internship drives, or do they focus more on trees, SQL, and full-stack projects?',
     companyTag: 'Rolls-Royce Data Labs',
     askedByName: 'Sanjith M',
-    askedByRollNo: '24BIT105',
+    askedByRollNo: '24IT105',
     askedByBatch: '2024–2028',
     status: 'Answered',
     createdAt: '2 hours ago',
@@ -177,8 +177,8 @@ export const INITIAL_QUESTIONS = [
       {
         id: 'A-11',
         answerBody: 'For 6-month data and full-stack internships, medium-level Binary Trees, Linked Lists, HashMaps, and SQL joins cover 80% of the coding round. Make sure you can explain your backend architecture (like Express middleware and MongoDB schemas) in depth during the technical round.',
-        responderName: 'Aravind S',
-        responderRollNo: '23BIT042',
+        responderName: 'Arjun K',
+        responderRollNo: '23IT014',
         responderRole: 'senior',
         createdAt: '1 hour ago'
       }
@@ -189,8 +189,8 @@ export const INITIAL_QUESTIONS = [
     title: 'Are Java Collections allowed in Zoho Round 2 and Round 3?',
     body: 'Seniors mentioned Zoho restricts built-in shortcuts in coding rounds. Does that mean we cannot use ArrayList or HashMap in Java, or is it only sorting/parsing utilities?',
     companyTag: 'Zoho Corporation',
-    askedByName: 'Harini P',
-    askedByRollNo: '25BIT031',
+    askedByName: 'Kavya P',
+    askedByRollNo: '25IT031',
     askedByBatch: '2025–2029',
     status: 'Open',
     createdAt: '5 hours ago',
